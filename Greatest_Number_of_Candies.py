@@ -4,6 +4,6 @@ ex = int(input())
 for i in lst:
     k = i+ex
     if max(lst)<=k:
-        print(True,end=' ')
+        print(True,end=" ")
     else:
-        print(False,end=' ')
+        print(False,end=" ")
