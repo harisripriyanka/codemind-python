@@ -1,10 +1,11 @@
 n = int(input())
-t = 0
-a = list(map(int,input().split()))
-for i in range(n):
-    if a[i]%2!=0:
-        t += 1
-if t<=2:
-    print ("YES")
-else:
+a = [int(i) for i in input().split()]
+c = 0
+for i in a:
+    if i%2!=0:
+        c += 1
+if c>2:
     print("NO")
+else:
+    print("YES")
+        
