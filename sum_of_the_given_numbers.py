@@ -1,0 +1,7 @@
+def add_num():
+    n = int(input())
+    for i in range(n):
+        a,b = map(int,input().split())
+        sum = a+b
+        print(sum)
+add_num()
