@@ -8,5 +8,6 @@ for i in range(n):
 for i in range(n):
     if l[i]%2!=0:
         if l[i]!=-1:
-            c=c+1
+            c = c+1
 print(c)
+    
